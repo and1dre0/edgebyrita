@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edgebyrita.com/sitemap.xml
