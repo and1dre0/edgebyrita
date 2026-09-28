@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Edge by Rita</title>
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4c16e"/>
+      <stop offset="45%" stop-color="#e8a0c0"/>
+      <stop offset="100%" stop-color="#7a5cff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="140" r="118" fill="#0c0c0c" stroke="url(#ring)" stroke-width="6"/>
+  <path fill="#f7f3ea" d="M120 52c-28 0-52 22-56 50-3 22-1 48 8 78 6 20 16 42 24 56 4 7 10 12 24 12s20-5 24-12c8-14 18-36 24-56 9-30 11-56 8-78-4-28-28-50-56-50z"/>
+  <path fill="#0c0c0c" d="M88 118c8-18 20-28 32-28s24 10 32 28c2 4-2 8-6 6-10-6-18-10-26-10s-16 4-26 10c-4 2-8-2-6-6z"/>
+  <text x="120" y="178" text-anchor="middle" fill="#0c0c0c" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-style="italic" letter-spacing="1">edge</text>
+  <circle cx="168" cy="78" r="3.2" fill="#0c0c0c"/>
+  <circle cx="176" cy="70" r="1.6" fill="#0c0c0c"/>
+</svg>
