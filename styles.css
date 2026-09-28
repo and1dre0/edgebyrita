@@ -396,6 +396,61 @@ h3 {
   text-decoration: none;
 }
 
+.google-reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.google-review {
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.4rem;
+  color: var(--ink);
+  box-shadow: 0 8px 20px rgba(28, 42, 40, 0.05);
+}
+
+.google-review:hover {
+  outline: 2px solid var(--accent);
+  text-decoration: none;
+}
+
+.google-badge {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+}
+
+.stars {
+  margin: 0;
+  color: #d4a017;
+  letter-spacing: 0.12em;
+}
+
+.google-review blockquote {
+  margin: 0;
+}
+
+.google-review blockquote p {
+  margin: 0;
+  color: var(--ink);
+  max-width: none;
+}
+
+.google-review footer {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
 .pickup-form {
   display: grid;
   gap: 1rem;
@@ -491,6 +546,7 @@ textarea.invalid {
   .hero,
   .card-grid,
   .review-grid,
+  .google-reviews,
   .steps,
   .split,
   .footer-inner,
